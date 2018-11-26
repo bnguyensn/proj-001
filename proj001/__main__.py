@@ -1,11 +1,11 @@
 from .gui import getRepoPaths
 from .pdf import read
 
-repo_paths = getRepoPaths.get_repo_paths()
+# First, grab necessary paths
 
-pdf_name = 'CapCall_MSOFLP_17Aug2018 (CD).PDF'
-pdf_path = repo_paths['pdf'] / pdf_name
+repo_path = getRepoPaths.get_repo_paths()
 
-pdf_info = read.get_info(pdf_path)
+pdf_name = 'test.pdf'
+pdf_path = repo_path['pdf'] / pdf_name
 
-print(pdf_info['/Author'])
+print('*** End of program. ***')

@@ -1,12 +1,7 @@
 from pathlib import Path
 
-DEFAULT_PDF_REPO_PATH = Path(
-    'C:/Users/912316/PycharmProjects/proj-001/data'
-)
-
-DEFAULT_RES_REPO_PATH = Path(
-    'C:/Users/912316/PycharmProjects/proj-001/data/res'
-)
+DEFAULT_PDF_REPO_PATH = Path('data')
+DEFAULT_RES_REPO_PATH = Path('res')
 
 
 def get_repo_paths():
